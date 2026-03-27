@@ -30,8 +30,8 @@ Dim_ClinicalDetails: Metadata for admissions and medical specialties.
 Integrity Fix: Resolved 1-to-Many relationship conflicts by aggregating patient data to ensure unique primary keys in dimension tables.
 
 ## Dashboard Preview
-![Hospital Overview](Images/Page1.png)
-![Clinical Analysis](Images/Page2.png)
+![Hospital Overview](images/Page1.png)
+![Clinical Analysis](images/Page2.png)
 
 ## 📊 Dashboard Insights
 
