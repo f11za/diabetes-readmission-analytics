@@ -1,4 +1,6 @@
-
+/* step 0: Import raw CSV (101,766 rows) into a table named 'Staging_Diabetes' 
+using the SQL Server Import and Export Wizard.
+*/
 ALTER TABLE Staging_Diabetes ALTER COLUMN diag_1 nvarchar(50) NULL;
 ALTER TABLE Staging_Diabetes ALTER COLUMN diag_2 nvarchar(50) NULL;
 ALTER TABLE Staging_Diabetes ALTER COLUMN diag_3 nvarchar(50) NULL;
