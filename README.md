@@ -29,6 +29,8 @@ Dim_ClinicalDetails: Metadata for admissions and medical specialties.
 
 Integrity Fix: Resolved 1-to-Many relationship conflicts by aggregating patient data to ensure unique primary keys in dimension tables.
 
+Visuals
+
 📊 Dashboard Insights
 
 Page 1: Hospital Readmissions Overview
