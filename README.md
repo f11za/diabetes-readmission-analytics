@@ -2,7 +2,7 @@
 
 This project addresses a critical challenge in healthcare: Patient Readmission. Using a dataset of over 100,000 clinical encounters from 130 US hospitals, I engineered a relational database and an interactive Power BI suite to identify the clinical and demographic drivers of hospital returns.
 
-Data Source: > Diabetes 130-US hospitals for years 1999-2008 Data Set, sourced from the UCI Machine Learning Repository.
+Data Source: Diabetes 130-US hospitals for years 1999-2008 Data Set, sourced from the UCI Machine Learning Repository.
 
 [Access Dataset Here!](https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008)
 
