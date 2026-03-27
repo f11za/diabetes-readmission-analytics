@@ -1,4 +1,5 @@
-Hospital Readmission & Clinical Risk Analytics
+# Hospital Readmission & Clinical Risk Analytics
+
 This project addresses a critical challenge in healthcare: Patient Readmission. Using a dataset of over 100,000 clinical encounters from 130 US hospitals, I engineered a relational database and an interactive Power BI suite to identify the clinical and demographic drivers of hospital returns.
 
 Tech Stack
