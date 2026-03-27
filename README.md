@@ -6,7 +6,7 @@ Data Source: Diabetes 130-US hospitals for years 1999-2008 Data Set, sourced fro
 
 [Access Dataset Here!](https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008)
 
-Tech Stack
+## Tech Stack
 - Database: MS SQL Server (T-SQL)
 
 - BI Tool: Microsoft Power BI
@@ -29,9 +29,11 @@ Dim_ClinicalDetails: Metadata for admissions and medical specialties.
 
 Integrity Fix: Resolved 1-to-Many relationship conflicts by aggregating patient data to ensure unique primary keys in dimension tables.
 
-Visuals
+## Dashboard Preview
+![Hospital Overview](Images/Page1.png)
+![Clinical Analysis](Images/Page2.png)
 
-📊 Dashboard Insights
+## 📊 Dashboard Insights
 
 Page 1: Hospital Readmissions Overview
 
@@ -49,7 +51,7 @@ A1C Monitoring: Identifies a massive volume of patients with "None" for A1C test
 
 Treatment Efficacy: Analyzes how medication changes (Ch vs No) impact the likelihood of readmission.
 
-📈 Summary of Findings
+## 📈 Summary of Findings
 
 Complexity is the Key Driver: Readmission risk scales linearly with the number of diagnoses and medications.
 
@@ -57,7 +59,7 @@ Monitoring Gaps: A significant portion of the population is not receiving A1C te
 
 High-Risk Cohorts: Identified specific medical specialties (Dermatology, Pediatrics) with outlier readmission profiles.
 
-How to Run
+## How to Run
 
 Database: Execute the script in /SQL_Scripts/Model_Setup.sql to create the schema and clean the data.
 
