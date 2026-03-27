@@ -26,7 +26,9 @@ Dim_ClinicalDetails: Metadata for admissions and medical specialties.
 Integrity Fix: Resolved 1-to-Many relationship conflicts by aggregating patient data to ensure unique primary keys in dimension tables.
 
 📊 Dashboard Insights
+
 Page 1: Hospital Readmissions Overview
+
 Volume vs. Risk: Tracks 102k encounters against a 46.09% readmission rate.
 
 Clinical Intensity: A gauge monitoring the average of 43.10 lab procedures per visit.
@@ -34,6 +36,7 @@ Clinical Intensity: A gauge monitoring the average of 43.10 lab procedures per v
 Demographic Distribution: A donut chart analysis showing the impact of race on hospital volume.
 
 Page 2: Clinical Treatment & Risk Analysis
+
 Patient Complexity: A scatter plot correlating the number of medications and diagnoses across age brackets, revealing that complexity peaks in the 70–90 age group.
 
 A1C Monitoring: Identifies a massive volume of patients with "None" for A1C testing, highlighting a gap in chronic glucose monitoring.
@@ -41,6 +44,7 @@ A1C Monitoring: Identifies a massive volume of patients with "None" for A1C test
 Treatment Efficacy: Analyzes how medication changes (Ch vs No) impact the likelihood of readmission.
 
 📈 Summary of Findings
+
 Complexity is the Key Driver: Readmission risk scales linearly with the number of diagnoses and medications.
 
 Monitoring Gaps: A significant portion of the population is not receiving A1C testing, which correlates with higher return rates.
@@ -48,6 +52,7 @@ Monitoring Gaps: A significant portion of the population is not receiving A1C te
 High-Risk Cohorts: Identified specific medical specialties (Dermatology, Pediatrics) with outlier readmission profiles.
 
 How to Run
+
 Database: Execute the script in /SQL_Scripts/Model_Setup.sql to create the schema and clean the data.
 
 Report: Open the .pbix file in the /PowerBI_Report folder to view the interactive dashboard.
